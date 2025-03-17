@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { Button } from "./components/ui/button";
 import { ThemeProvider } from "./components/Theme-provider";
 import HomePage from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

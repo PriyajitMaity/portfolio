@@ -1,6 +1,8 @@
 import { FaCss3, FaHtml5, FaReact, FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { BiLogoTypescript } from "react-icons/bi";
+import { RiNextjsFill } from "react-icons/ri";
+
 import {
   SiExpress,
   SiRedux,
@@ -36,7 +38,11 @@ const Skills = () => {
         </span>
         <span className="detail duration-200 transition-translate hover:-translate-y-1.5">
           <FaReact className="text-2xl" />
-          React
+          ReactJs
+        </span>
+        <span className="detail duration-200 transition-translate hover:-translate-y-1.5">
+          <RiNextjsFill className="text-2xl" />
+          NextJs
         </span>
         <span className="detail duration-200 transition-translate hover:-translate-y-1.5">
           <SiExpress className="text-2xl" />
